@@ -447,9 +447,17 @@ video {
 }
 
 @font-face {
-  font-family: ;
+  font-family: 'Circular STD';
 
-  src: url();
+  src: url('../public/font/CircularStd-Bold.woff') format("woff");
+}
+
+html {
+  font-family: inter;
+}
+
+h1 {
+  font-family: Circular STD;
 }
 
 *, ::before, ::after {
@@ -558,4 +566,18 @@ video {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
+}
+
+.font-inter {
+  font-family: inter;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-ungu {
+  --tw-text-opacity: 1;
+  color: rgb(93 80 198 / var(--tw-text-opacity));
 }
