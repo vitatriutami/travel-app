@@ -446,6 +446,12 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: ;
+
+  src: url();
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
